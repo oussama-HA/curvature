@@ -79,9 +79,9 @@ const Footer: React.FC = () => {
         </section>
         <SiteFooterNav>
         <Link to="/">Home</Link>
-          <Link to="/TermsOfUse">Terms Of Use</Link>
-          <Link to="/PrivacyPolicy">Privacy Policy</Link>
-          <Link to="/ContactUs">Contact Us</Link>
+          <Link to="/termsofuse">Terms Of Use</Link>
+          <Link to="/privacypolicy">Privacy Policy</Link>
+          <Link to="/contactus">Contact Us</Link>
           
         </SiteFooterNav>
       </div>

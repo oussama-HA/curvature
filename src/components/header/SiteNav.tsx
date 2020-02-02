@@ -303,7 +303,7 @@ class SiteNav extends React.Component<SiteNavProps> {
                   <Link to="/about">About Us</Link>
                 </li>
                 <li role="menuitem">
-                  <Link to="/PrivacyPolicy">Privacy Policy</Link>
+                  <Link to="/privacypolicy">Privacy Policy</Link>
                 </li>
               </ul>
             
