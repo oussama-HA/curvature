@@ -17,7 +17,7 @@ const PageTemplate = css`
   }
 `;
 
-const About: React.FC = () => (
+const termsofuse: React.FC = () => (
   <IndexLayout>
     <Helmet>
       <title>Terms Of Use</title>
@@ -177,4 +177,4 @@ const About: React.FC = () => (
   </IndexLayout>
 );
 
-export default About;
+export default termsofuse;

@@ -17,7 +17,7 @@ const PageTemplate = css`
   }
 `;
 
-const About: React.FC = () => (
+const privacypolicy: React.FC = () => (
   <IndexLayout>
     <Helmet>
       <title>Privacy Policy</title>
@@ -201,4 +201,4 @@ const About: React.FC = () => (
   </IndexLayout>
 );
 
-export default About;
+export default privacypolicy;

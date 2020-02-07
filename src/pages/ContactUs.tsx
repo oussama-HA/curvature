@@ -17,7 +17,7 @@ const PageTemplate = css`
   }
 `;
 
-const About: React.FC = () => (
+const contactus: React.FC = () => (
   <IndexLayout>
     <Helmet>
       <title>Contact Us</title>
@@ -57,4 +57,4 @@ const About: React.FC = () => (
   </IndexLayout>
 );
 
-export default About;
+export default contactus;
