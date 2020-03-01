@@ -4,7 +4,8 @@ module.exports = {
   siteMetadata: {
     title: 'The Curvature',
     description: "Bring You The Best In Women's World",
-    siteUrl: 'https://thecurvature.com', // full path to blog - no ending slash
+    siteUrl: 'https://thecurvature.com',
+    author: '@mrsamie'
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
@@ -19,6 +20,20 @@ module.exports = {
         path: path.join(__dirname, 'src', 'content'),
       },
     },
+    'gatsby-transformer-sharp',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `The Curvature`,
+        short_name: `The Curvature`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `fullscreen`,
+        icon: `src/content/avatars/ghost.png`
+      },
+    },
+    `gatsby-plugin-offline`,
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -52,7 +67,6 @@ module.exports = {
     },
     'gatsby-plugin-emotion',
     'gatsby-plugin-typescript',
-    'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     'gatsby-plugin-feed',

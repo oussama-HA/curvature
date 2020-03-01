@@ -157,7 +157,7 @@ const NavStyles = css`
   li a {
       position: relative;
       display: block;
-      padding: 12px 12px;
+      padding: 16px 12px;
       color: #fff;
       opacity: 0.8;
       transition: opacity 0.35s ease-in-out;
@@ -188,6 +188,7 @@ const NavStyles = css`
   @media (max-width: 700px) {
     width: 80%;
     justify-content: center;
+    margin: 0 0 0 5rem;
   }
 
   @media (max-width: 350px) {

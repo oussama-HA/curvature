@@ -6,6 +6,7 @@ import * as React from 'react';
 import { css } from '@emotion/core';
 
 import { PostFullHeader, PostFullTitle, NoImage, PostFull } from '../templates/post';
+import SEO from '../components/Seo';
 import { PostFullContent } from '../components/PostContent';
 import Footer from '../components/Footer';
 import Helmet from 'react-helmet';
@@ -19,6 +20,7 @@ const PageTemplate = css`
 
 const contactus: React.FC = () => (
   <IndexLayout>
+    <SEO title="Contact Us" />
     <Helmet>
       <title>Contact Us</title>
     </Helmet>

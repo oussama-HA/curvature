@@ -1,6 +1,7 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 
+import SEO from '../components/Seo'
 import Footer from '../components/Footer';
 import SiteNav from '../components/header/SiteNav';
 import PostCard from '../components/PostCard';
@@ -59,6 +60,7 @@ const Tags: React.FC<TagTemplateProps> = props => {
 
   return (
     <IndexLayout>
+      <SEO title={tag} />
       <Helmet>
         <html lang={config.lang} />
         <title>

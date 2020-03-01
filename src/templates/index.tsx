@@ -3,6 +3,7 @@ import * as React from 'react';
 import { css } from '@emotion/core';
 import Helmet from 'react-helmet';
 
+import SEO from '../components/Seo'
 import Footer from '../components/Footer';
 import SiteNav from '../components/header/SiteNav';
 import PostCard from '../components/PostCard';
@@ -108,9 +109,10 @@ const IndexPage: React.FC<IndexProps> = props => {
 
   return (
     <IndexLayout css={HomePosts}>
+      <SEO title="Home" />
       <Helmet>
         <html lang={config.lang} />
-        <title>{config.title}</title>
+        {/* <title>{config.title}</title> */}
         <meta name="description" content={config.description} />
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="website" />

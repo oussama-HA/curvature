@@ -3,6 +3,7 @@ import * as React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 
+import SEO from '../components/Seo';
 import SiteNavLogo from '../components/header/SiteNavLogo';
 import PostCard from '../components/PostCard';
 import Wrapper from '../components/Wrapper';
@@ -63,6 +64,7 @@ const NotFoundPage: React.FC<NotFoundTemplateProps> = props => {
 
   return (
     <IndexLayout>
+      <SEO title="404: Not Found" />
       <Wrapper>
         <header css={[SiteHeader, outer]}>
           <div className="inner">

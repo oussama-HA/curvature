@@ -7,6 +7,7 @@ import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import { Helmet } from 'react-helmet';
 
+import SEO from '../components/Seo'
 import AuthorCard from '../components/AuthorCard';
 import Footer from '../components/Footer';
 import SiteNav from '../components/header/SiteNav';
@@ -217,6 +218,7 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
 
   return (
     <IndexLayout className="post-template">
+      <SEO title={post.frontmatter.title} />
       <Helmet>
         <html lang={config.lang} />
         <title>{post.frontmatter.title}</title>
