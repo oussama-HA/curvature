@@ -18,7 +18,7 @@ const PageTemplate = css`
   }
 `;
 
-const termsofuse: React.FC = () => (
+const About: React.FC = () => (
   <IndexLayout>
 	<SEO title="Terms Of Use" />
     <Helmet>

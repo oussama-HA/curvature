@@ -18,7 +18,7 @@ const PageTemplate = css`
   }
 `;
 
-const privacypolicy: React.FC = () => (
+const About: React.FC = () => (
   <IndexLayout>
     <SEO title="Privacy Policy" />
     <Helmet>

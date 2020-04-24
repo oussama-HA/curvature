@@ -18,7 +18,7 @@ const PageTemplate = css`
   }
 `;
 
-const contactus: React.FC = () => (
+const About: React.FC = () => (
   <IndexLayout>
     <SEO title="Contact Us" />
     <Helmet>
