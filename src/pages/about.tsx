@@ -63,7 +63,7 @@ const About: React.FC = () => (
               </p>
               <p>
               The idea behind The Curvature starts here. We developed a website with clean design, fast-loading, 
-              with No ads whatsoever, and a lot of high-quality content that provides real value to the readers.
+              with a lot of high-quality content that provides real value to the readers.
               </p>
               <p>
               We aim to be the go-to destination to learn about topics related only to women such as Fitness, 
