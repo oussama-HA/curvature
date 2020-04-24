@@ -59,4 +59,4 @@ const contactus: React.FC = () => (
   </IndexLayout>
 );
 
-export default contactus;
+export default About;

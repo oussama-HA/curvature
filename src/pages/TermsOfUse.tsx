@@ -179,4 +179,4 @@ const termsofuse: React.FC = () => (
   </IndexLayout>
 );
 
-export default termsofuse;
+export default About;

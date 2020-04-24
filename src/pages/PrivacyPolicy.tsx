@@ -203,4 +203,4 @@ const privacypolicy: React.FC = () => (
   </IndexLayout>
 );
 
-export default privacypolicy;
+export default About;
